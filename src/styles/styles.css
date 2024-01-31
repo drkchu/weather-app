@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-container {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    gap: 1rem;
+}
